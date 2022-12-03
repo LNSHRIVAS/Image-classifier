@@ -1,0 +1,22 @@
+format() -> this function can be used for formatting anything inside a string
+print("hello {} how are you".format('aakash'))
+
+verse = "hello how are you"
+
+verse.len() -> gives the total length of the string
+verse.find() -> find the letter or word at its first occurance
+verse.rfind() -> find the last occurance of any word
+verse.count() -> count the no of occurance of a word in string
+
+Error control understanding error message and exceptions
+
+ZeroDIvisionError: this means division is by zero is occuring somewhere in the code which is not possible
+
+SyntaxError: unexpected EOF while parsing:
+
+  Syntax error is more common a typo error which generally occurs from the user end.
+
+TypeError: len() takes exactly one argument(0 given):
+
+This kind of message could be given for many functions, like len in this case, if I accidentally do not include the required number of arguments when I'm calling a function, as below. This message tells me how many arguments the function requires (one in this case), compared with how many I gave it (0). I meant to use len(chars) to count the number of characters in this long word, but I forgot the argument.
+
